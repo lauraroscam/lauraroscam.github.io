@@ -1,0 +1,45 @@
+body {
+  background-color:#DDE9E7
+}
+
+h1 {
+  font-family: "Poiret One";
+  text-align: center;
+  letter-spacing: 5px;
+  color: #79948C
+}
+
+h3 {
+  text-align: center;
+  color: #473C42
+}
+
+ul {
+  font-family: "Roboto"
+}
+
+p#profile {
+  text-align: center;
+}
+
+div#socialmedia {
+  text-align:center;
+}
+
+div#socialmedia a {
+  text-decoration: none !important;
+  color: grey;    
+}
+
+.fa-twitter, .fa-facebook, .fa-linkedin {
+  transform:scale(0.9);
+}
+
+.fa-twitter:hover, .fa-facebook:hover, .fa-linkedin:hover {
+  transform:scale(1.1);
+  color: #536360;
+}
+
+div#cats {
+  text-align:center
+}
