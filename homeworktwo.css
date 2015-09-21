@@ -12,6 +12,8 @@ h1 {
 h3 {
   text-align: center;
   color: #473C42
+  font-family:'Candal', sans-serif;
+  font-size: 30px; 
 }
 
 ul {
@@ -51,6 +53,13 @@ div#trees {
   padding-bottom: 10px;
 }
 
+div#flowers {
+  background-image: url(http://spoonful-flavour.com/wp-content/uploads/2015/09/IQMANDZVSM.jpg);
+  background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 p#bio {
   text-align: center;
   font-family: 'Lora', serif;
@@ -72,6 +81,152 @@ a:hover {
   color: #E8E8C3;
 }
 
-tabel#travel {
+.travel {
   text-align: center;
+  margin: 0 auto;
 }
+
+.travel img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#cities {
+  font-family: 'Lobster', cursive;
+  color: #BA9D6C;
+  text-align: center;
+  margin: 0 auto;
+}
+
+div#betweenbanner {
+  background-color: #DBD7DA
+  background-size: cover;
+  width:500px;
+  height:200px;
+}
+
+
+#box {
+ width:200px;
+ height:200px;
+ box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+ border-bottom:2px solid #fff;
+ border-right:2px solid #fff;
+ margin:5% auto 0 auto; 
+ background:url(http://spoonful-flavour.com/wp-content/uploads/2015/09/Mardid.jpg);
+ background-size:cover;
+ border-radius:5px;
+ overflow:hidden
+}
+
+#box2 {
+ width:200px;
+ height:200px;
+ box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+ border-bottom:2px solid #fff;
+ border-right:2px solid #fff;
+ margin:5% auto 0 auto; 
+ background:url(http://spoonful-flavour.com/wp-content/uploads/2015/09/Lyon.jpg);
+ background-size:cover;
+ border-radius:5px;
+ overflow:hidden
+}
+
+#box3 {
+ width:200px;
+ height:200px;
+ box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+ border-bottom:2px solid #fff;
+ border-right:2px solid #fff;
+ margin:5% auto 0 auto; 
+ background:url(http://spoonful-flavour.com/wp-content/uploads/2015/09/Bordeau.jpg);
+ background-size:cover;
+ border-radius:5px;
+ overflow:hidden
+}
+
+#box4 {
+ width:200px;
+ height:200px;
+ box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+ border-bottom:2px solid #fff;
+ border-right:2px solid #fff;
+ margin:5% auto 0 auto; 
+ background:url(http://spoonful-flavour.com/wp-content/uploads/2015/09/Paris.jpg);
+ background-size:cover;
+ border-radius:5px;
+ overflow:hidden
+}
+
+#box5 {
+ width:200px;
+ height:200px;
+ box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+ border-bottom:2px solid #fff;
+ border-right:2px solid #fff;
+ margin:5% auto 0 auto; 
+ background:url(http://spoonful-flavour.com/wp-content/uploads/2015/09/Valencia.jpg);
+ background-size:cover;
+ border-radius:5px;
+ overflow:hidden
+}
+
+#box6 {
+ width:200px;
+ height:200px;
+ box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+ border-bottom:2px solid #fff;
+ border-right:2px solid #fff;
+ margin:5% auto 0 auto; 
+ background:url(http://spoonful-flavour.com/wp-content/uploads/2015/09/Rome.jpg);
+ background-size:cover;
+ border-radius:5px;
+ overflow:hidden
+}
+
+.overlay {  
+  background:rgba(0,0,0,.75);
+  text-align:center;
+  width:200px;
+  height:200px;
+  opacity:0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+  padding: 80px 0 66px 0;
+}
+
+#box:hover .overlay {
+  opacity:1;
+}
+
+#box2:hover .overlay {
+  opacity:1;
+}
+
+#box3:hover .overlay {
+  opacity:1;
+}
+
+#box4:hover .overlay {
+  opacity:1;
+}
+
+#box5:hover .overlay {
+  opacity:1;
+}
+
+#box6:hover .overlay {
+  opacity:1;
+}
+
+.plus {  
+  font-family:Helvetica;
+  font-weight:900;
+  color:#DBD7DA;
+  font-size:30px;
+  vertical-align:middle; 
+  display:inline-block;
+}
+
+
+
