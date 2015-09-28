@@ -54,7 +54,7 @@ div#trees {
 }
 
 div#flowers {
-  background-image: url(http://spoonful-flavour.com/wp-content/uploads/2015/09/IQMANDZVSM.jpg);
+  background-image: url(http://spoonful-flavour.com/wp-content/uploads/2015/09/CZULV2K6LU.jpg);
   background-size: cover;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -228,5 +228,11 @@ div#betweenbanner {
   display:inline-block;
 }
 
-
+#funfacts {
+  color: #696469;
+  font-family: "Poiret One";
+  text-align: center;
+  margin-right: 400px;
+  margin-left: 400px; 
+}
 
